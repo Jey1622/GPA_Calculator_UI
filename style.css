@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Mukta&family=Poppins:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+main{
+    height: auto;
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+#box #heading p{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#no-sub{
+    margin: 10px;
+}
+#no-sub input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px gray solid;
+}
+#main table{
+    margin: 10px;
+    width: 400px;
+    padding: 10px;
+}
+table th,table td{
+    text-align: center;
+    height: 30px;
+}
+#calculater{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+button{
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #20ee98;
+    outline: none;
+    border: 2px #1cf15c solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Mooli', sans-serif;
+}
+/* 
+font-family: 'Mooli', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif; */
